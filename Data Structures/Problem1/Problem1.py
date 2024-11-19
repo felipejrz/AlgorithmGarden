@@ -4,12 +4,12 @@ def reverseArray(b):
     
     # Append
     # b += [6] Agregar un valor a un array en lugar de un append
+    # b += [6]  # Equivalente a b.extend([4]) Esta lo inserta al final de la cadena
     
     # Insert
     # Agregar un elemento en cualquier posicion [:n] donde n es el lugar donde se quier ingresar 
     # La numeracion es la de 0 a n 
     # b[:1] += [4] Esta es para insertar en un lugar en espesifico si es lo que queremos 
-    # b += [4]  # Equivalente a b.extend([4]) Esta lo inserta al final de la cadena
     
     
     # Remove
