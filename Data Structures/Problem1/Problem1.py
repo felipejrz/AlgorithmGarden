@@ -1,4 +1,3 @@
-def reverseArray(a, b):
     # [1, 2, 3, 4]
     #  0  1  2  3
     
@@ -22,21 +21,16 @@ def reverseArray(a, b):
         
     # Pop
     # Con el mismo del de remove con -1 ingreso al ultimo valor del array para eliminarlo con del
-    del b[-1]
-        
-    print(b)
-    
-    
+
+def simpleArraySum(ar):
+    sum = 0
+    for i in ar:
+        sum += i
+    return sum
+
 if __name__ == '__main__':
-    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    ar_count = int(input().strip())
 
-    arr_count = int(input().strip())
+    ar = list(map(int, input().rstrip().split()))
 
-    arr = list(map(int, input().rstrip().split()))
-
-    res = reverseArray(arr_count, arr)
-
-    # fptr.write(' '.join(map(str, res)))
-    # fptr.write('\n')
-
-    # fptr.close()
+    print(simpleArraySum(ar))
