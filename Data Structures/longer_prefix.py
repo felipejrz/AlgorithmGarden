@@ -10,7 +10,7 @@ class Solution:
 
         # El fragmento strs[1:] en Python sirve para crear una sublista de la lista 
         # strs que contiene todos los elementos excepto el primero.
-        # Por lo tanto recorre la cadena menos el primero que ese se encuentra en prefix
+        # Por lo tanto recorr   e la cadena menos el primero que ese se encuentra en prefix
         for string in strs[1:]:
             print(string[:len(prefix)])
             while string[:len(prefix)] != prefix:
