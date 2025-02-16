@@ -1,3 +1,8 @@
+#3. Longest Substring Without Repeating Characters
+
+#Dada una cadena s, encuentre la longitud de la más larga Subcadena 
+#Sin caracteres duplicados.
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         dic = {}
