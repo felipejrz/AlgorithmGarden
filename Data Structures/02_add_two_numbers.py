@@ -1,8 +1,10 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+#2. Suma dos números
+
+#Se le dan dos listas enlazadas no vacías que representan dos enteros no negativos. 
+#Los dígitos se almacenan en orden inverso, y cada uno de sus nodos contiene un solo dígito. 
+#Agregue los dos números y devuelva la suma como una lista vinculada.
+
+#Puede asumir que los dos números no contienen ningún cero inicial, excepto el propio número 0
 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
